@@ -15,6 +15,9 @@
 		C302C5F01D213EBC00FAD98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C302C5EE1D213EBC00FAD98D /* LaunchScreen.storyboard */; };
 		C302C5FB1D213EBC00FAD98D /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C302C5FA1D213EBC00FAD98D /* _____Tests.m */; };
 		C302C6061D213EBC00FAD98D /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C302C6051D213EBC00FAD98D /* _____UITests.m */; };
+		C302C6151D21409B00FAD98D /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C302C6141D21409B00FAD98D /* MD5.m */; };
+		C302C61E1D21476F00FAD98D /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = C302C61D1D21476F00FAD98D /* NSData+AES.m */; };
+		C302C6211D214B1800FAD98D /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C302C6201D214B1800FAD98D /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		C302C6011D213EBC00FAD98D /* 加密+解密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密+解密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C302C6051D213EBC00FAD98D /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		C302C6071D213EBC00FAD98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C302C6131D21409B00FAD98D /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		C302C6141D21409B00FAD98D /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
+		C302C61C1D21476F00FAD98D /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		C302C61D1D21476F00FAD98D /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		C302C61F1D214B1800FAD98D /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		C302C6201D214B1800FAD98D /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				C302C5E41D213EBC00FAD98D /* AppDelegate.m */,
 				C302C5E61D213EBC00FAD98D /* ViewController.h */,
 				C302C5E71D213EBC00FAD98D /* ViewController.m */,
+				C302C6131D21409B00FAD98D /* MD5.h */,
+				C302C6141D21409B00FAD98D /* MD5.m */,
+				C302C61C1D21476F00FAD98D /* NSData+AES.h */,
+				C302C61D1D21476F00FAD98D /* NSData+AES.m */,
+				C302C61F1D214B1800FAD98D /* NSData+Base64.h */,
+				C302C6201D214B1800FAD98D /* NSData+Base64.m */,
 				C302C5E91D213EBC00FAD98D /* Main.storyboard */,
 				C302C5EC1D213EBC00FAD98D /* Assets.xcassets */,
 				C302C5EE1D213EBC00FAD98D /* LaunchScreen.storyboard */,
@@ -273,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C302C61E1D21476F00FAD98D /* NSData+AES.m in Sources */,
 				C302C5E81D213EBC00FAD98D /* ViewController.m in Sources */,
 				C302C5E51D213EBC00FAD98D /* AppDelegate.m in Sources */,
+				C302C6151D21409B00FAD98D /* MD5.m in Sources */,
 				C302C5E21D213EBC00FAD98D /* main.m in Sources */,
+				C302C6211D214B1800FAD98D /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +517,7 @@
 				C302C60C1D213EBC00FAD98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C302C60D1D213EBC00FAD98D /* Build configuration list for PBXNativeTarget "加密+解密Tests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +526,7 @@
 				C302C60F1D213EBC00FAD98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C302C6101D213EBC00FAD98D /* Build configuration list for PBXNativeTarget "加密+解密UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +535,7 @@
 				C302C6121D213EBC00FAD98D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
